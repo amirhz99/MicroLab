@@ -1,0 +1,7 @@
+INTERFACING OF LCD WITH ATMEGA32 AVR MICROCONTROLLER.In this article you will learn what LCD is and how to interface LCD with AVR microcontroller Atmega32 using 8-bit mode. What is the basic difference between 8-bit mode and 4-bit mode? How to write code for LCD interfacing in C language and what are the basic commands used for LCD programming. Here we will also learn how to program LCD and sends command/ data to LCD.
+
+WHAT IS LCD?
+LCD stands for Liquid Crystal Display, is an electronic device which is used for data display. LCDs are preferable over seven segments and LEDs as they can easily represent data in form of alphabets, characters, numbers or animations. LCDs are very easy to program and make your work quite attractive and simple. Numerous types of LCDs are available in market such as 16X2, 16X4, 20X2, 20X4, graphical LCDs (128X64) etc. The LCD which we are using is 16X2 alphanumeric LCD, it display 32 characters in two rows means in one row we have 16 characters.
+
+PIN DESCRIPTION OF LCD
+16X2 LCD can interface with AVR microcontroller by using two modes, 4-bit mode or 8-bit mode. In this article we will use 8-bit mode for interfacing. In 8-bit mode we send command to LCD by using eight data lines (D0-D7) while in 4-bit mode we use four data lines (D5-D7) for sending command and data. These data lines can be connected to any port of Atmega32.
