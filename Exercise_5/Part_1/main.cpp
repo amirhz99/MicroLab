@@ -4,7 +4,6 @@
 #include <util/delay.h>
 
 
-
 int LEVEL = 0;
 char LL[] = {0b0101, 0b0110, 0b1010, 0b1001};
 float iter = 0;
