@@ -1,0 +1,52 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+h                                                                                 0x016E       2
+motor                                                                             0x0170       2
+key                                                                               0x0172       1
+x                                                                                 0x0173       4
+y                                                                                 0x0177       4
+h1                                                                                0x017B       1
+w1                                                                                0x017C       1
+wa                                                                                0x017D      10
+mo                                                                                0x0187       5
+temp                                                                              0x018C       5
+_seed                                                                             0x0191       4
+_base_y                                                                           0x0195       4
+_lcd_x                                                                            0x0199       1
+_lcd_y                                                                            0x019A       1
+_lcd_maxx                                                                         0x019B       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+id                                                                                R4,R5        2
+p                                                                                 R6,R7        2
+i                                                                                 R8,R9        2
+s                                                                                 R10,R11      2
+m                                                                                 R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+key_pad                                                                           0x00095     76
+main                                                                              0x000E1    303
+atoi                                                                              0x00210     55
+put_buff_G101                                                                     0x00247     58
+_print_G101                                                                       0x00281    308
+sprintf                                                                           0x003B5     52
+_lcd_write_nibble_G102                                                            0x003E9     20
+_lcd_write_data                                                                   0x003FD     12
+lcd_gotoxy                                                                        0x00409     17
+lcd_clear                                                                         0x0041A     14
+lcd_putchar                                                                       0x00428     32
+lcd_puts                                                                          0x00448     17
+lcd_init                                                                          0x00459     47
+isdigit                                                                           0x00488      9
+isspace                                                                           0x00491     11
+strlen                                                                            0x0049C     12
+strlenf                                                                           0x004A8     13

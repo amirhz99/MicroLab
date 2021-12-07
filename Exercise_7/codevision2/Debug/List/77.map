@@ -1,0 +1,48 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+step                                                                              0x0160       8
+_base_y                                                                           0x0168       4
+_seed                                                                             0x016C       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R4,R5        2
+z                                                                                 R6,R7        2
+_lcd_x                                                                            R9           1
+_lcd_y                                                                            R8           1
+_lcd_maxx                                                                         R11          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x00074     14
+main                                                                              0x00082    127
+_lcd_write_nibble_G100                                                            0x00101     21
+_lcd_write_data                                                                   0x00116     13
+lcd_gotoxy                                                                        0x00123     13
+lcd_clear                                                                         0x00130     12
+lcd_putchar                                                                       0x0013C     23
+lcd_puts                                                                          0x00153     11
+lcd_putsf                                                                         0x0015E     18
+lcd_init                                                                          0x00170     46
+getchar                                                                           0x0019E      4
+putchar                                                                           0x001A2      7
+puts                                                                              0x001A9     14
+gets                                                                              0x001B7     47
+put_buff_G101                                                                     0x001E6     58
+_ftoe_G101                                                                        0x00220    210
+_print_G101                                                                       0x002F2    538
+sprintf                                                                           0x0050C     52
+itoa                                                                              0x00540     46
+ftoa                                                                              0x0056E    194
+strcpyf                                                                           0x00630     13
+strlen                                                                            0x0063D     12
+strlenf                                                                           0x00649     13
+ftrunc                                                                            0x00656     49
+floor                                                                             0x00687     23
